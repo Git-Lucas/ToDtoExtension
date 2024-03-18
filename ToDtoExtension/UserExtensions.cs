@@ -3,8 +3,8 @@ public static class UserExtensions
 {
     public static UserDto ToDto(this UserEntity userEntity)
     {
-        return new UserDto(id: userEntity.Id,
-                           username: userEntity.Username,
-                           email: userEntity.Email);
+        return new UserDto(Id: userEntity.Id,
+                           Username: userEntity.Username,
+                           Email: userEntity.Email);
     }
 }

@@ -1,9 +1,9 @@
 ﻿namespace ToDtoExtension;
-public class UserDto(int id, string username, string email)
+public record UserDto(int Id, string Username, string Email)
 {
-    public int Id { get; } = id;
-    public string Username { get; } = username;
-    public string Email { get; } = email;
+    public int Id { get; } = Id;
+    public string Username { get; } = Username;
+    public string Email { get; } = Email;
 
     public override string ToString()
     {
