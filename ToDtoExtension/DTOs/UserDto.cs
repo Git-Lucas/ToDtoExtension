@@ -1,4 +1,4 @@
-﻿namespace ToDtoExtension;
+﻿namespace ToDtoExtension.DTOs;
 public record UserDto(int Id, string Username, string Email)
 {
     public int Id { get; } = Id;

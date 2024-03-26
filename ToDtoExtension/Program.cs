@@ -1,4 +1,5 @@
-﻿using ToDtoExtension;
+﻿using ToDtoExtension.DTOs;
+using ToDtoExtension.Entities;
 
 UserEntity userEntity = new(id: 1,
                             username: "Lucas",
