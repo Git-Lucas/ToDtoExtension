@@ -1,4 +1,6 @@
-﻿namespace ToDtoExtension;
+﻿using ToDtoExtension.DTOs;
+
+namespace ToDtoExtension.Entities;
 public static class UserExtensions
 {
     public static UserDto ToDto(this UserEntity userEntity)
